@@ -53,11 +53,19 @@ sunset time in hh:mm:ss
 
 Here’s a brief overview of the steps involved in this project:
 -Data Loading: Imported the dataset into a Data Frame to start the analysis.
+
 -Data Exploration: An initial exploration of the dataset was conducted to understand the distribution, trends, and relationships between different variables.
+
 -Data Cleaning: This step involved handling missing values, correcting errors, and ensuring the data was clean and ready for analysis.
+
 -Encoding: Categorical variables were encoded using datetime functions and regular expressions to convert them into a numerical format suitable for machine learning models.
+
 -Feature Selection: Relevant features were selected based on their importance and correlation with the target variable to improve model performance.
+
 -Outliers Removal: Outliers were identified and removed to ensure they did not negatively impact the model's performance.
+
 -Model Creation: Several models, including Linear Regression, Decision Tree, Random Forest, and Support Vector Regression (SVR), were created and evaluated. The Random Forest model achieved the highest accuracy of 94%.
+
 -Hyperparameter Tuning: Using RandomizedSearchCV, the hyperparameters of the Random Forest model were tuned to further enhance its performance.
+
 -Streamlit App Development: A user-friendly interface was designed using Streamlit to allow users to input data and receive solar radiation predictions.
